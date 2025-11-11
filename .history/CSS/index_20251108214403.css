@@ -1,0 +1,21 @@
+:root{
+    --main-color:#cbfe1c;
+}
+@font-face {
+    font-family: main-font-family-bold;
+    src: url(../fonts/ChakraPetch-Bold.ttf);
+}
+@font-face {
+    font-family: main-font-family-Regular;
+    src: url(../fonts/ChakraPetch-Regular.ttf);
+}
+.main-color{
+    color: var(--main-color);
+}
+body{
+    background-color: rgb(94, 93, 99);
+    color: var(--main-color);
+}
+.nav-link:focus, .nav-link:hover,ac {
+    color: var(--main-color);
+}

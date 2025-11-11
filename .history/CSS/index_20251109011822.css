@@ -1,0 +1,76 @@
+:root{
+    --main-color:#cbfe1c;
+}
+@font-face {
+    font-family: main-font-family-bold;
+    src: url(../fonts/ChakraPetch-Bold.ttf);
+}
+@font-face {
+    font-family: main-font-family-Regular;
+    src: url(../fonts/ChakraPetch-Regular.ttf);
+}
+@font-face {
+    font-family: main-font-family-SemiBold;
+    src: url(../fonts/ChakraPetch-SemiBold.ttf);
+}
+@font-face {
+    font-family: dayes-one;
+    src: url(../fonts/DaysOne-Regular.ttf);
+    font-weight: 700;
+}
+h1{
+    font-family: dayes-one;
+    font-weight: 900;
+}
+.main-color{
+    color: var(--main-color);
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+body,nav{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    font-family: main-font-family-SemiBold;
+
+    color: white;
+}
+.nav-link{
+    color: #FFF;
+}
+.nav-link:focus, .nav-link:hover,.active {
+    color: var(--main-color);
+}
+header .nav-icon-hover:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+#hero{
+    /* padding-top: 70px; */
+}
+#hero .btn-outline-primary {
+    color: var(--main-color);
+    border-color: var(--main-color);
+    box-shadow: none !important;
+}
+#hero .btn-outline-primary:hover {
+    color: #000;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+main section#hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,.9)),url(../images/hero-bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-img{
+    background-color: #FFF;
+    height: 450px;
+}
+.hero-img img{
+    
+    /* background-color: red; */
+    object-fit: contain;
+}

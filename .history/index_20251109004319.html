@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/index.css" />
+  <title>Document</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary border-bottom border-dark py-4" data-bs-theme="dark">
+      <div class="container">
+        <div class="logo main-color d-flex align-items-center gap-2 me-4">
+          <span><i class="fa-solid fa-gamepad h5"></i></span>
+          <p class="lead h4 fa-bold">GameArena</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">---</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-games">our games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what-we-do">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <div class="bill-message">
+              <span class="nav-icon-hover"><i class="fa-regular fa-bell fa-lg"></i></span>
+            </div>
+            <span class="nav-icon-hover"><i class="fa-regular fa-message fa-lg"></i></span>
+            <button type="button" class="btn bg-main-color px-4 py-2">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="pt-5 vh-100" id="hero">
+      <div class="container pt-5">
+        <div class="row row-cols-lg-2 text-center align-content-center text-sm-center text-lg-start">
+          <div class="hero-heading">
+            <header>
+              <h1 class="display-1">
+                THE ULTIMATE <span class="main-color">GAMING</span> EXPERIENCE
+              </h1>
+              <p class="lead">
+                Join millions of gamers worldwide in the most competitive
+                eSports tournaments. Experience next-level gaming with
+                cutting-edge technology and endless possibilities
+              </p>
+            </header>
+            <div class="btns d-flex gap-3">
+              <button type="button" class="btn bg-main-color text-dark btn-outline-primary px-4 py-lg-3">
+                Start Gaming Now
+              </button>
+              <button type="button" class="btn btn-outline-primary px-4 py-lg-3">
+                Watch Tournaments
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-games"></section>
+    <section id="what-we-do"></section>
+    <section id="our-team"></section>
+    <section id="contact-us"></section>
+  </main>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
