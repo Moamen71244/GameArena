@@ -18,12 +18,26 @@
   <link rel="stylesheet" href="CSS/all.min.css" />
   <link rel="stylesheet" href="CSS/index.min.css" />
   <link rel="stylesheet" href="CSS/media.min.css" />
+  <link rel="stylesheet" href="CSS/loading.css" />
   <title>
     GameArena | Competitive eSports Tournaments & Gaming Community
   </title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader-container">
+      <div class="loader-logo">
+        <i class="fa-solid fa-gamepad"></i>
+      </div>
+      <div class="loader-bar">
+        <div class="loader-progress"></div>
+      </div>
+      <div class="loader-text">Loading GameArena...</div>
+    </div>
+  </div>
+
   <header>
     <nav class="navbar fixed-top navbar-expand-lg border-bottom border-dark py-3 bg-black">
       <div class="container container-lg">
@@ -134,7 +148,7 @@
                 <div class="col my-card p-3">
                   <div class="inner h-100 rounded-4 overflow-hidden position-relative">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-1.png" class="w-100 h-100 object-fit-cover" alt="game-1" />
+                      <img loading="lazy" src="images/latest-games-1.png" class="w-100 h-100 object-fit-cover" alt="game-1" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">
@@ -158,7 +172,7 @@
                 <div class="col my-card p-3 d-none d-md-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-2.png" class="w-100 h-100 object-fit-cover" alt="game-2" />
+                      <img loading="lazy" src="images/latest-games-2.png" class="w-100 h-100 object-fit-cover" alt="game-2" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">
@@ -182,7 +196,7 @@
                 <div class="col my-card p-3 d-none d-lg-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-3.png" class="w-100 h-100 object-fit-cover" alt="game-3" />
+                      <img loading="lazy" src="images/latest-games-3.png" class="w-100 h-100 object-fit-cover" alt="game-3" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">The Legend of Zelda: Tears of the Kingdom</p>
@@ -208,7 +222,7 @@
                 <div class="col my-card p-3">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-4.png" class="w-100 h-100 object-fit-cover" alt="game-4" />
+                      <img loading="lazy" src="images/latest-games-4.png" class="w-100 h-100 object-fit-cover" alt="game-4" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Aetheria Chronicles</p>
@@ -229,7 +243,7 @@
                 <div class="col my-card p-3 d-none d-md-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-5.png" class="w-100 h-100 object-fit-cover" alt="game-5" />
+                      <img loading="lazy" src="images/latest-games-5.png" class="w-100 h-100 object-fit-cover" alt="game-5" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Warfront Protocol</p>
@@ -250,7 +264,7 @@
                 <div class="col my-card p-3 d-none d-lg-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-6.png" class="w-100 h-100 object-fit-cover" alt="game-6" />
+                      <img loading="lazy" src="images/latest-games-6.png" class="w-100 h-100 object-fit-cover" alt="game-6" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Shot Striker</p>
@@ -276,7 +290,7 @@
                 <div class="col my-card p-3">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-7.png" class="w-100 h-100 object-fit-cover" alt="game-7" />
+                      <img loading="lazy" src="images/latest-games-7.png" class="w-100 h-100 object-fit-cover" alt="game-7" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Epic Gaming League</p>
@@ -297,7 +311,7 @@
                 <div class="col my-card p-3 d-none d-md-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-8.png" class="w-100 h-100 object-fit-cover" alt="game-8" />
+                      <img loading="lazy" src="images/latest-games-8.png" class="w-100 h-100 object-fit-cover" alt="game-8" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Barren alien worlds</p>
@@ -318,7 +332,7 @@
                 <div class="col my-card p-3 d-none d-lg-block">
                   <div class="inner h-100 rounded-4 overflow-hidden">
                     <figure class="p-0 m-0 h-100">
-                      <img src="images/latest-games-9.png" class="w-100 h-100 object-fit-cover" alt="game-9" />
+                      <img loading="lazy" src="images/latest-games-9.png" class="w-100 h-100 object-fit-cover" alt="game-9" />
                     </figure>
                     <figcaption class="caption position-absolute p-3">
                       <p class="h5 fm-chakra fw-bold">Cloveland Quest</p>
@@ -412,7 +426,7 @@
             <div class="card overflow-hidden rounded-4">
               <div class="inner rounded-3">
                 <figure>
-                  <img src="images/what-we-do-1.png" class="w-100 h-100 object-fit-cover" alt="img 1" />
+                  <img loading="lazy" src="images/what-we-do-1.png" class="w-100 h-100 object-fit-cover" alt="img 1" />
                 </figure>
               </div>
             </div>
@@ -452,7 +466,7 @@
             <div class="card overflow-hidden rounded-4">
               <div class="inner d rounded-3">
                 <figure>
-                  <img src="images/what-we-do-2.png" class="w-100 h-100 object-fit-cover" alt="img 1" />
+                  <img loading="lazy" src="images/what-we-do-2.png" class="w-100 h-100 object-fit-cover" alt="img 1" />
                 </figure>
               </div>
             </div>
@@ -498,112 +512,112 @@
             <div class="slider-track d-flex gap-3">
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-1.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-1.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-2.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-2.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-3.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-3.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-4.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-4.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-5.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-5.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-6.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-6.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-7.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-7.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-8.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-8.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-9.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-9.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-10.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-10.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-11.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-11.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-12.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-12.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-1.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-1.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-2.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-2.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-3.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-3.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-4.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-4.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-5.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-5.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-6.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-6.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-7.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-7.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-8.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-8.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-9.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-9.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-10.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-10.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
             </div>
@@ -613,112 +627,112 @@
             <div class="slider-track-2 d-flex gap-3">
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-1.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-1.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-2.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-2.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-3.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-3.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-4.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-4.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-5.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-5.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-6.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-6.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-7.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-7.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-8.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-8.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-9.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-9.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-10.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-10.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-11.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-11.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-12.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-12.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-1.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-1.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-2.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-2.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-3.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-3.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-4.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-4.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-5.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-5.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-6.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-6.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-7.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-7.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-8.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-8.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-9.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-9.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="images/logo-10.jpg" class="rounded-3" alt="1" />
+                  <img loading="lazy" src="images/logo-10.jpg" class="rounded-3" alt="1" />
                 </div>
               </div>
             </div>
@@ -744,7 +758,7 @@
             <div class="card p-0 m-0 border-0 position-relative rounded-4 overflow-hidden">
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-1.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-1.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -761,7 +775,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-2.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-2.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content">
                 <p>
@@ -778,7 +792,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-8.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-8.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -795,7 +809,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-3.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-3.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -812,7 +826,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-4.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-4.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -829,7 +843,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-5.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-5.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -846,7 +860,7 @@
               <span class="position-absolute name fs-6 fm-dayes">PHANTOM</span>
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-6.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-6.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
 
               <figcaption class="position-absolute content ">
@@ -863,7 +877,7 @@
             <div class="card p-0 m-0 border-0 position-relative rounded-4 overflow-hidden">
 
               <figure class="p-0 m-0 h-100">
-                <img src="images/avatar-7.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
+                <img loading="lazy" src="images/avatar-7.png" class="w-100 h-100 object-fit-cover" alt="avatar-1" />
               </figure>
               <figcaption class="position-absolute content ">
                 <p>
@@ -1098,6 +1112,7 @@
 
   </main>
   <script src="JS/bootstrap.bundle.min.js"></script>
+  <script type="module" src="JS/main.js"></script>
 </body>
 
 </html>
